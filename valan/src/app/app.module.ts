@@ -14,13 +14,20 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 // importar rutas
 import { ROUTES } from './app.routes';
+import { RegistroComponent } from './components/registro/registro.component';
+import { SomosComponent } from './components/somos/somos.component';
+import { AyudaComponent } from './components/ayuda/ayuda.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SesionComponent,
-    NavbarComponent
+    NavbarComponent,
+    RegistroComponent,
+    SomosComponent,
+    AyudaComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +35,7 @@ import { ROUTES } from './app.routes';
     HttpClientModule,
     RouterModule.forRoot( ROUTES, {useHash:true})
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -2,7 +2,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    color: white !important;
+    color: rgb(27, 23, 23) !important;
 }
 
 hr {
@@ -64,4 +64,22 @@ hr {
 
 .fadeIn {
     animation-name: fadeIn;
+}
+
+.col-md-6 {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centrador {
+    text-align: center;
+    width: 400px;
+    height: auto;
+    background-color: rgb(221, 212, 212);
+}
+
+#imagen {
+    width: 1000px;
 }

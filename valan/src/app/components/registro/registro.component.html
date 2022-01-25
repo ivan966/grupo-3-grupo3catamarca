@@ -1,18 +1,17 @@
-<div class="card col-md-6" style=" width: 18rem;">
+<div class="card col-md-6 contenedorSesion" style=" width: 25rem;">
     <!-- <img src="../assets/img/logoLogin.png" class="card-img-top" alt="..."> -->
     <div class="card-body">
-        <h5 class="card-title">Regístrate</h5>
+        <h5 class="card-title centrar-texto">Regístrate</h5>
 
         <form>
             <div class="mb-3">
 
-
-                <input type="text" placeholder="Introdusca su nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="text" placeholder="Introduzca su nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
             </div>
             <div class="mb-3">
 
-                <input type="password" placeholder="Introdusca su apellido" class="form-control" id="exampleInputPassword1">
+                <input type="password" placeholder="Introduzca su apellido" class="form-control" id="exampleInputPassword1">
             </div>
             <div class="mb-3">
 
@@ -21,54 +20,68 @@
             <div class="mb-3">
 
 
-                <input type="text" placeholder="Documento" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="number" placeholder="DNI" class="form-control">
 
             </div>
             <div class="mb-3">
 
 
-                <input type="password" placeholder="Crear una clave" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="password" placeholder="Contraseña" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
             </div>
             <div class="mb-3">
 
 
-                <input type="password" placeholder="Repetir clave" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="password" placeholder="Repetir contraseña" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
             </div>
             <div class="mb-3">
 
-
-                <input type="text" placeholder="Seleccione su país" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-
-            </div>
-            <div class="mb-3">
-
-
-                <input type="text" placeholder="Seleccione su Provincia" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-
-            </div>
-            <div class="mb-3">
-
-
-                <input type="text" placeholder="Fecha de naciemiento" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <select name="" id="" class="form-select" >
+                    <option value disabled selected>Pais</option>
+                    <option value="1">Argentina</option>
+                    <option value="2">Chile</option>
+                    <option value="3">Venezuela</option>
+                    <option value="4">Uruguay</option>
+                    <option value="5">Paraguay</option>
+                </select>
 
             </div>
             <div class="mb-3">
 
-
-                <input type="text" placeholder="Genero" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <select name="" id="" class="form-select" >
+                    <option value="" disabled selected>Provincia</option>
+                    <option value="1">Catamarca</option>
+                    <option value="2">La Rioja</option>
+                    <option value="3">Tucuman</option>
+                    <option value="4">Cordoba</option>
+                    <option value="5">Santiago del Estero</option>
+                </select>
 
             </div>
-
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Recordar mi contraseña</label>
+            <div class="mb-3 input-group">
+             
+                
+                    <span class="input-group-text" id="basic-addon2">Fecha de Nacimiento</span>
+                    <input type="date" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        
             </div>
+            <div class="mb-3">
+
+
+                <select name="" id="" class="form-select" >
+                    <option value="" disabled selected>Genero</option>
+                    <option value="1">Masculino</option>
+                    <option value="2">Femenino</option>
+                    <option value="3">Otro</option>
+                </select>
+            </div>
+
+        <div class="boton-registro">
             <button type="submit" class="btn btn-primary">Registrarme</button>
+        </div>
             <br>
 
-            <a href="#">Borrar todo</a>
         </form>
 
     </div>

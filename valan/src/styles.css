@@ -81,11 +81,11 @@ hr {
 }
 
 #imagen {
-    width: 50%;
-    height: auto;
+    width: 1000px;
 }
 
-.texto {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
+.contenedorSesion {
+    background-color: #8CC9D1;
+    padding: 20px;
+    border-radius: 15px;
 }

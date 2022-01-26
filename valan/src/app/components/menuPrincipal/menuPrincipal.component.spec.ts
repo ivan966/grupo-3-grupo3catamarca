@@ -6,7 +6,7 @@ describe('MenuPrincipalComponent', () => {
   let component: MenuPrincipalComponent;
   let fixture: ComponentFixture<MenuPrincipalComponent>;
 
-  beforeEach(async () => {
+  beforeEach(async () => { 
     await TestBed.configureTestingModule({
       declarations: [ MenuPrincipalComponent ]
     })

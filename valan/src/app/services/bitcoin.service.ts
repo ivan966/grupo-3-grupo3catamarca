@@ -15,7 +15,7 @@ export class BitcoinService {
       .pipe(map((res:any)=>{
         console.log(res);
         
-        return res['markets'][1];
+        return res['markets'];
         
       }));
      

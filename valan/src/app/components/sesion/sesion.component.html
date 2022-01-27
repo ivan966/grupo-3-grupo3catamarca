@@ -1,27 +1,35 @@
 <div class="login" style=" width: 22rem;">
-    <img src="../assets/img/logoLogin.png" class="card-img-top" alt="...">
+    <img src="../assets/img/logoLogin.png" class="card-img-top imgLogo" alt="...">
     <div class="contenedorSesion">
-        <h5 class="card-title">Iniciar Sesión</h5>
+        <h5 class="card-title TituloSesion">Iniciar Sesión</h5>
 
         <form>
-            <div class="mb-3">
-                <input type="email" placeholder="Correo" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="BordeLogin">
+                <div class="mb-3">
+                    <input type="email" placeholder="Correo" class="form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
 
+                </div>
+                <div class="mb-3">
+                    <input type="password" placeholder="Contraseña" class="form-control" id="exampleInputPassword1">
+                </div>
             </div>
-            <div class="mb-3">
+            <div class="mb-3 form-check OlvContr">
 
-                <input type="password" placeholder="Contraseña" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Recordar mi Correo</label>
+                <div class="cont1">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Recordar mi Correo</label>
+                </div>
+                <div class="cont2">
+                    <a href="#" class="link">Olvidé mi contraseña</a>
+                </div>
             </div>
             <div class="boton">
                 <button type="submit" class="btn btn-primary color-boton">Entrar</button>
-            <br>
+                <br>
             </div>
 
-            <a href="#" class="link">Olvidé mi contraseña</a>
+
         </form>
 
     </div>

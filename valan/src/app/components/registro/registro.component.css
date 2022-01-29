@@ -1,7 +1,7 @@
 .centrar-texto{
     text-align: center;
     margin-bottom: 20px;
-    color: #fff;
+    color: #000;
 }
 input[type=number] {
     -moz-appearance: textfield;

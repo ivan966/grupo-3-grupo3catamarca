@@ -6,10 +6,22 @@
 input[type=number] {
     -moz-appearance: textfield;
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;  
+}
 .centrar{
     text-align: center;
 }
 .boton-registro{
     text-align: center;
-    margin-top: 30px;
+    margin: 30px 0 0 0;
+}
+.borde{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 20px;
+}
+.color{
+    color: rgb(116, 114, 114);
 }

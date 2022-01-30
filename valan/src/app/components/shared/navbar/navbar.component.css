@@ -9,9 +9,7 @@
 .bordelink:hover{
     background-color: #fff;
 }
-hr{
-    margin-top: 0;
-}
-.LogoNB{
-    margin-right: -10px;
+.borde{
+    border-bottom: 0.5px solid #8CC9D1;
+    margin-bottom: 20px;
 }

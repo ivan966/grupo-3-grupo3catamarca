@@ -101,3 +101,28 @@
         width: 20%;
         justify-content: space-around;
     }
+    
+    .hdYpro {
+        display: flex;
+        flex-flow: column wrap;
+        -webkit-box-pack: justify;
+        max-width: 117rem;
+        padding: 0px 2rem;
+        margin: 0px auto;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    @media screen and (min-width: 992px) {
+        .kCogd {
+            width: 50%;
+            margin: 0px auto;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        .fpdENk {
+            width: 50%;
+            margin: 0px auto;
+        }
+    }

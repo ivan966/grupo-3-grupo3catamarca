@@ -93,6 +93,11 @@
         text-align: center;
     }
     
-    .izquierda {
+    .derecha {
         justify-content: flex-end;
+    }
+    
+    .logoMonedas {
+        width: 20%;
+        justify-content: space-around;
     }

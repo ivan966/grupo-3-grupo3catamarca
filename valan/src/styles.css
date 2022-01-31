@@ -93,3 +93,6 @@
         text-align: center;
     }
     
+    .izquierda {
+        justify-content: flex-end;
+    }

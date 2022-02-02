@@ -98,8 +98,8 @@
     }
     
     .logoMonedas {
-        width: 20%;
-        justify-content: space-around;
+        display: flex;
+        width: 50%;
     }
     
     .hdYpro {
@@ -125,4 +125,39 @@
             width: 50%;
             margin: 0px auto;
         }
+    }
+    
+    .wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .wrapper>* {
+        padding: 10px;
+        flex: 1 100%;
+    }
+    
+    .minh-100 {
+        height: 100vh;
+    }
+    
+    .centrar-texto {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+    
+    .centrar {
+        text-align: center;
+    }
+    
+    .boton-registro {
+        text-align: center;
+        margin-top: 30px;
     }

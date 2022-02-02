@@ -1,15 +1,24 @@
-.centrar-texto{
+.centrar-texto {
     text-align: center;
     margin-bottom: 20px;
     color: #fff;
 }
+
 input[type=number] {
     -moz-appearance: textfield;
 }
-.centrar{
+
+.centrar {
     text-align: center;
 }
-.boton-registro{
+
+.boton-registro {
     text-align: center;
     margin-top: 30px;
+}
+
+.contenedorSesion {
+    background-color: #8CC9D1;
+    padding: 20px;
+    border-radius: 15px;
 }

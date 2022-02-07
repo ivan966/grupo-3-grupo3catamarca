@@ -3,7 +3,7 @@ a{
     color: #fff;
 }
 a:hover, a:active{
-    color: red;
+    color: lightgray;
 }
 .navigation-items{
     list-style-type: none;
